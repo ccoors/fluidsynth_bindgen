@@ -1,0 +1,8 @@
+[package]
+name = "fluidsynth_bindgen"
+version = "0.1.0"
+authors = ["Christian F. Coors <ccoors@uni-bremen.de>"]
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0.30"
